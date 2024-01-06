@@ -1,11 +1,14 @@
 import { TbArrowUpRight } from 'react-icons/tb';
+import Img1 from '../assets/Weather-Web-App.png';
+import Img2 from '../assets/URL-Shortener.png';
+import Img3 from '../assets/Countries-Search.png';
 
 const Projects = () => {
   const projectData = [
     {
       name: 'Weather Forecast',
       url: 'https://',
-      image: '../src/assets/Weather Web App.png',
+      image: Img1,
       alt: 'Image was unable to be loaded',
       description:
         'A Web App that shows the weather forecast based on your current location. It allows you to search for other cities weather forecast. It shows a 5 days forecast by default.',
@@ -14,7 +17,7 @@ const Projects = () => {
     {
       name: 'URL Shortener',
       url: 'https://shortly-url-shortener-raph.vercel.app',
-      image: '../src/assets/URL Shortener.png',
+      image: Img2,
       alt: 'Image was unable to be loaded',
       description:
         "A web app for shortening long urls. It has feature to copy generated short links, it stores your shortened url so you don't lose them on page reload, and allows you clear all shortened urls.",
@@ -23,7 +26,7 @@ const Projects = () => {
     {
       name: 'Search Countries',
       url: 'https://',
-      image: '../src/assets/Countries Search.png',
+      image: Img3,
       alt: 'Image was unable to be loaded',
       description:
         'An API based web app which allows you to search for countries around the world with live searching feature. It has other features like filtering countries based on the region, you can also checking more details about individual country.',
