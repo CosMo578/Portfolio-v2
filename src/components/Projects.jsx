@@ -32,15 +32,15 @@ const Projects = () => {
         'An API based web app which allows you to search for countries around the world with live searching feature. It has other features like filtering countries based on the region, you can also checking more details about individual country.',
       technologies: ['React', 'Tailwind Css', 'Framer Motion', 'API'],
     },
-    {
-      name: 'Styled By Stella',
-      url: 'https://styled-by-stella.vercel.app',
-      image: '',
-      alt: 'Image was unable to be loaded',
-      description:
-        'A business landing page website for a hair styling brand that showcases services offered, contact info and opening hours.',
-      technologies: ['HTML', 'Sass', 'JavaScript'],
-    },
+    // {
+    //   name: 'Styled By Stella',
+    //   url: 'https://styled-by-stella.vercel.app',
+    //   image: '',
+    //   alt: 'Image was unable to be loaded',
+    //   description:
+    //     'A business landing page website for a hair styling brand that showcases services offered, contact info and opening hours.',
+    //   technologies: ['HTML', 'Sass', 'JavaScript'],
+    // },
   ];
 
   return (
