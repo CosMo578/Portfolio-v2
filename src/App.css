@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply text-gray-300 text-base;
+}
+
+img {
+  @apply select-none;
+}
