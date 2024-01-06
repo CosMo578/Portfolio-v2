@@ -5,7 +5,7 @@ const Projects = () => {
     {
       name: 'Weather Forecast',
       url: 'https://',
-      image: './src/assets/Weather Web App.png',
+      image: '../src/assets/Weather Web App.png',
       alt: 'Image was unable to be loaded',
       description:
         'A Web App that shows the weather forecast based on your current location. It allows you to search for other cities weather forecast. It shows a 5 days forecast by default.',
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       name: 'URL Shortener',
       url: 'https://shortly-url-shortener-raph.vercel.app',
-      image: './src/assets/URL Shortener.png',
+      image: '../src/assets/URL Shortener.png',
       alt: 'Image was unable to be loaded',
       description:
         "A web app for shortening long urls. It has feature to copy generated short links, it stores your shortened url so you don't lose them on page reload, and allows you clear all shortened urls.",
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       name: 'Search Countries',
       url: 'https://',
-      image: './src/assets/Countries Search.png',
+      image: '../src/assets/Countries Search.png',
       alt: 'Image was unable to be loaded',
       description:
         'An API based web app which allows you to search for countries around the world with live searching feature. It has other features like filtering countries based on the region, you can also checking more details about individual country.',
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       name: 'Styled By Stella',
       url: 'https://styled-by-stella.vercel.app',
-      image: './this/image.jpg',
+      image: '',
       alt: 'Image was unable to be loaded',
       description:
         'A business landing page website for a hair styling brand that showcases services offered, contact info and opening hours.',
