@@ -24,7 +24,7 @@ const Projects = () => {
       technologies: ['HTML', 'Sass', 'JavaScript', 'API'],
     },
     {
-      name: 'Search Countries',
+      name: 'Countries Search',
       url: 'https://',
       image: Img3,
       alt: 'Image was unable to be loaded',

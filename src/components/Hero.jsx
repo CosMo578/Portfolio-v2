@@ -58,11 +58,10 @@ const Hero = () => {
           return (
             <li
               key={social.href}
-              className="hover:text-primary hover:cursor-pointer hover:rounded-full hover:scale-[1.3] transition-all duration-200 ease-in-out p-1"
-              target="_blank"
-              rel="noreferrer"
-              href={social.href}>
-              {social.icon}
+              className="hover:text-primary hover:cursor-pointer hover:rounded-full hover:scale-[1.3] transition-all duration-200 ease-in-out p-1">
+              <a href={social.href} target="_blank" rel="noopener noreferrer">
+                {social.icon}
+              </a>
             </li>
           );
         })}
