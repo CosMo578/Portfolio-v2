@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       name: 'Countries Search',
-      url: 'https://',
+      url: 'https://countries-search-omega.vercel.app',
       image: Img3,
       alt: 'Image was unable to be loaded',
       description:
