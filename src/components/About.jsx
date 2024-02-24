@@ -15,10 +15,10 @@ const About = () => {
               <span className="text-gray-300 ">and</span> student{' '}
             </span>
             that's committed to continous learning. I am passionate about
-            buiding optimized websites for businesses.
+            building optimized websites for businesses.
             <br />
             <br />
-            I’m a Developer with 2 years+ of experience. I transform your vision
+            I’m a Developer with 1 year of experience. I transform your vision
             into dynamic digital experiences by ensuring that every project is
             not just complete but close to perfection.
             <br />
