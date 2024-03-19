@@ -1,5 +1,5 @@
 import { TbCodeCircle } from 'react-icons/tb';
-import Pic from '../assets/Raph.jpg';
+import Pic from '/images/Raph.jpg';
 const About = () => {
   return (
     <section className="mb-20">

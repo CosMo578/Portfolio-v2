@@ -1,4 +1,4 @@
-import reactSvg from '../assets/react.svg';
+import reactSvg from '/images/react.svg';
 const Footer = () => {
   return (
     <footer className="w-full mt-20 ">

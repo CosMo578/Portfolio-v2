@@ -1,9 +1,10 @@
 import { TbArrowUpRight } from 'react-icons/tb';
-import Img1 from '../assets/Weather-Web-App.png';
-import Img2 from '../assets/URL-Shortener.png';
-import Img3 from '../assets/Countries-Search.png';
-import Img4 from '../assets/Blogr-landing-page.png';
-import Img5 from '../assets/Crowdfunding-product-page.png';
+import Img1 from '/images/Weather-Web-App.png';
+import Img2 from '/images/URL-Shortener.png';
+import Img3 from '/images/Rest-Countries-API.png';
+import Img4 from '/images/Blogr-landing-page.png';
+import Img5 from '/images/Crowdfunding-product-page.png';
+import Img6 from '/images/Easybank-landing-page.png';
 
 const Projects = () => {
   const projectData = [
@@ -28,7 +29,7 @@ const Projects = () => {
     {
       name: 'EasyBank landing page',
       url: 'https://easybank-landing-page-raph.vercel.app',
-      image: null,
+      image: Img6,
       alt: 'Image was unable to be loaded',
       description:
         'This is a solution to the EasyBank landing page challenge on Frontend Mentor, to help me improve my coding skills by building realistic projects.',
