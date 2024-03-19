@@ -9,3 +9,7 @@ p {
 img {
   @apply select-none;
 }
+
+/* * {
+  border: 1px solid red;
+} */

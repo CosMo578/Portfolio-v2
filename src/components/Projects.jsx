@@ -8,6 +8,15 @@ import Img5 from '../assets/Crowdfunding-product-page.png';
 const Projects = () => {
   const projectData = [
     {
+      name: 'Countries Search',
+      url: 'https://countries-search-omega.vercel.app',
+      image: Img3,
+      alt: 'Image was unable to be loaded',
+      description:
+        "A multi-page API based web app that live searches for countries around the world with filtering feature based on the country's region, and details page about individual country.",
+      technologies: ['React', 'Tailwind Css', 'Framer Motion', 'API'],
+    },
+    {
       name: 'Shortly URL Shortener',
       url: 'https://shortly-url-shortener-raph.vercel.app',
       image: Img2,
@@ -17,12 +26,21 @@ const Projects = () => {
       technologies: ['HTML', 'Sass', 'JavaScript', 'API'],
     },
     {
+      name: 'EasyBank landing page',
+      url: 'https://easybank-landing-page-raph.vercel.app',
+      image: null,
+      alt: 'Image was unable to be loaded',
+      description:
+        'This is a solution to the EasyBank landing page challenge on Frontend Mentor, to help me improve my coding skills by building realistic projects.',
+      technologies: ['HTML', 'Tailwind', 'JavaScript'],
+    },
+    {
       name: 'Blogr landing page',
       url: 'https://blogr-landing-page-raph.vercel.app',
       image: Img4,
       alt: 'Image was unable to be loaded',
       description:
-        'This is a solution to the Blogr landing page challenge on Frontend Mentor, to help me improve my coding skills by building realistic projects. ',
+        'This is a solution to the Blogr landing page challenge on Frontend Mentor, to help me improve my coding skills by building realistic projects.',
       technologies: ['React', 'Tailwind Css', 'Landing page'],
     },
     {
@@ -33,15 +51,6 @@ const Projects = () => {
       description:
         'This is a solution to the Crowdfunding product page challenge on Frontend Mentor, to help me improve my coding skills by building realistic projects. ',
       technologies: ['React', 'Tailwind Css', 'Landing page'],
-    },
-    {
-      name: 'Countries Search',
-      url: 'https://countries-search-omega.vercel.app',
-      image: Img3,
-      alt: 'Image was unable to be loaded',
-      description:
-        "A multi-page API based web app that live searches for countries around the world with filtering feature based on the country's region, and details page about individual country.",
-      technologies: ['React', 'Tailwind Css', 'Framer Motion', 'API'],
     },
     {
       name: 'Weather Forecast Web App',
