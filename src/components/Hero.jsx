@@ -53,19 +53,23 @@ const Hero = () => {
         something together 👇
       </p>
 
-      <ul className="flex space-x-4">
-        {socialLinks.map((social) => {
-          return (
-            <li
-              key={social.href}
-              className="hover:text-primary hover:cursor-pointer hover:rounded-full hover:scale-[1.3] transition-all duration-200 ease-in-out p-1">
-              <a href={social.href} target="_blank" rel="noopener noreferrer">
-                {social.icon}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      <div className='flex items-center md:gap-20 max-md:justify-between flex-wrap'>
+        <ul className="flex space-x-4">
+          {socialLinks.map((social) => {
+            return (
+              <li
+                key={social.href}
+                className="hover:text-primary hover:cursor-pointer hover:rounded-full hover:scale-[1.3] transition-all duration-200 ease-in-out p-1">
+                <a href={social.href} target="_blank" rel="noopener noreferrer">
+                  {social.icon}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+        <button className="px-6 py-3 rounded-md border border-primary duration-200 transition-colors ease-in-out bg-primary font-semibold hover:bg-transparent hover:text-primary"><a href="https://drive.google.com/file/d/1w4YgfMYXl81O7AA4MSWJFwbDy9OwTp6s/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download my CV</a></button>
+      </div>
+
     </main>
   );
 };
