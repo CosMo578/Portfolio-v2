@@ -94,7 +94,7 @@ const Projects = () => {
 
                 <div className="flex md:text-right flex-col justify-center md:w-1/2">
                   <a href={url} target="_blank" rel="noreferrer">
-                    <h3 className="text-xl md:text-2xl [&_.arrow]:hover:animate-bounce leading-loose mb-4 hover:text-primary">
+                    <h3 className="text-xl md:text-2xl [&_.arrow]:hover:animate-bounce leading-loose mb-4 hover:text-primary ">
                       {name} <TbArrowUpRight className="inline arrow" />
                     </h3>
                   </a>

@@ -7,10 +7,10 @@ const Footer = () => {
         <img src={reactSvg} className="inline -scale-[.8] " alt="" />{' '}
         by Dev. Ralph
         <br />
-        Inspired by{' '}
+        {/* Inspired by{' '}
         <span className="hover:cursor-pointer hover:underline text-primary">
           Britanny Chiang
-        </span>
+        </span> */}
       </div>
     </footer>
   );
