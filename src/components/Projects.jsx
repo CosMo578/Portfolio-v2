@@ -1,11 +1,12 @@
 import { TbArrowUpRight } from 'react-icons/tb';
 import Img1 from '/images/Weather-Web-App.png';
 import Img2 from '/images/URL-Shortener.png';
-import Img3 from '/images/Rest-Countries-API.png';
+import Img3 from '/images/Rest-Countries-API-2.png';
 import Img4 from '/images/Blogr-landing-page.png';
 import Img5 from '/images/Crowdfunding-product-page.png';
-import Img6 from '/images/Easybank-landing-page.png';
+import Img6 from '/images/Easybank-landing-page-2.png';
 import Img7 from '/images/IP-address-tracker.png';
+import Img8 from '/images/Vorem-academy.png';
 
 const Projects = () => {
   const projectData = [
@@ -14,8 +15,16 @@ const Projects = () => {
       url: 'https://ralph-ip-address-tracker.vercel.app',
       image: Img7,
       description:
-        "An IP address tracker that automatically detects and displays a user's IP, location, ISP and timezone. Users can also input others IP to view details on an interactive map with pinpoint accuracy",
+        "An fully interactive and responsive IP address tracker website that automatically detects and displays a user's IP, location, ISP and timezone. Users can also input other IP to view details on an interactive map with pinpoint accuracy.",
       technologies: ['React', 'Tailwind CSS', 'Axios', 'Leaflet', 'API'],
+    },
+    {
+      name: 'Vorem Academy',
+      url: 'https://vorem-academy.vercel.app',
+      image: Img8,
+      description:
+        "A multi-page educational website that is fully responsive and interactive. It showcases the courses offered by Vorem Academy and their bootcamps.",
+      technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
     },
     {
       name: 'Countries Search',

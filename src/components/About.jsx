@@ -53,6 +53,7 @@ const About = () => {
                 'React',
                 'Git & GitHub',
                 'NextJS',
+                'Firebase'
               ].map((tech) => {
                 return (
                   <li key={tech}>
