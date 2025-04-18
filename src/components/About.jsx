@@ -6,38 +6,33 @@ const About = () => {
       <h2 className='text-xl mb-6 uppercase font-semibold word'>About Me</h2>
       <div className='flex flex-col-reverse lg:flex-row gap-8'>
         <div className='mx-auto w-full md:mx-0 lg:w-2/3'>
-          <p className='text-gray-300 capitalize'>
-            Hello! I'm Akpor Ufuoma Raphael, a
+          <p className='text-gray-300'>
+            I'm Raphael a Frontend web developer and aspiring Full-stack
+            developer. I am currently learning backend engineering{' '}
             <span className='text-primary'>
-              {' '}
-              frontend <span className='text-gray-300 '>and</span> Aspiring
-              fulllstack web developer <span className='text-gray-300'>,</span>{' '}
-              freelancer{' '}
-              <span className='text-gray-300 '>
-                and final year National Diploma
-              </span>{' '}
-              student{' '}
+              with NodeJS, Express, Mongoose and MongoDB
             </span>
-            that's committed to continous learning. I am passionate about
-            building optimized websites for my clients and businesses.
-            <br />
-            <br />
-            I’m a Developer with 3 years of experience. I transform your vision
-            into dynamic digital experiences by ensuring that every project is
-            not just complete but close to perfection.
-            <br />
-            <br />
-            When I'm not Coding I'm either listening to music, watching movies
-            or reading blogs. I'm also intrested in UI design, Cross-platform
-            App Development and blogging.
-            <br />
-            <br />
+            .
+            <br /> <br /> I recently graduated National Diploma (ND) from the
+            department of Computer Science and Information Technology (CSIT) in
+            Petroleum Training Institute, Effurun (PTI).
+            <br /> <br />
+            With my 2 years+ of experience in web development I have been
+            actively learning and building projects. I am committed to continous
+            learning and passionate about building fully functional and
+            responsive web apps. I transform your vision into dynamic digital
+            experiences by ensuring that every project is not just complete but
+            close to perfection.
+            <br /> <br />
+            When I'm not Coding I'm either reading blogs, listening to music or
+            reading books. I'm also interested in Cross-platform app Development
+            and blogging (although I've not tried it).
+            <br /> <br />
             Let's explore the future of technology together. One line of code at
             a time.
-            <br />
-            <br />
+            <br /> <br />
           </p>
-          <div className='rounded-lg p-2 hover:scale-[1.01] transition-transform ease-out duration-100 ring-1 ring-primary'>
+          <div className='rounded-lg p-2 hover:scale-[1.01] transition-transform ease-out duration-100 ring-1 ring-primary w-[70%]'>
             Here are <span className='text-primary'>some </span> technologies
             I've worked with recently:
             <br />
@@ -53,7 +48,7 @@ const About = () => {
                 'React',
                 'Git & GitHub',
                 'NextJS',
-                'Firebase'
+                'Firebase',
               ].map((tech) => {
                 return (
                   <li key={tech}>
@@ -63,10 +58,6 @@ const About = () => {
                 );
               })}
             </ul>
-            <p className='text-white mt-4'>
-              I also integrate other tools like VS Code, Lighthouse Postman, etc. That
-              ease development process.
-            </p>
           </div>
         </div>
         <img
@@ -75,6 +66,67 @@ const About = () => {
           alt=''
         />
       </div>
+      <marquee
+        behavior='scroll'
+        direction='left'
+        scrollamount='30'
+        className='bg-[#00ddff27] mt-8 px-4 py-6'>
+        <div className='[&_img]:size-32 flex gap-6 items-center w-max overflow-x-visible '>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-plain.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pnpm/pnpm-original-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg' />
+
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg' />
+        </div>
+      </marquee>
     </section>
   );
 };
