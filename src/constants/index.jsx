@@ -36,7 +36,7 @@ export const projectData = [
   // },
   {
     name: 'Rock Paper Scissors Game',
-    url: 'https://ralph-rock-paper-scissors-game.vercel.app',
+    url: 'https://ralph-fm-rock-paper-scissors.vercel.app/',
     image: Img9,
     description: '',
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],

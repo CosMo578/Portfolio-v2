@@ -90,7 +90,7 @@ const Hero = () => {
           }}
           className='px-6 py-3 rounded-md ring-2 ring-primary duration-200 transition-colors ease-in-out bg-primary font-semibold hover:bg-transparent hover:text-primary'>
           <a
-            href='https://drive.google.com/file/d/1w4YgfMYXl81O7AA4MSWJFwbDy9OwTp6s/view?usp=drive_link'
+            href='https://drive.google.com/file/d/1db4PZSsq8LXf3UlCUNvA_XzBevGEd-Pg/view?usp=drive_link'
             target='_blank'
             rel='noopener noreferrer'>
             Download my CV

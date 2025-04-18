@@ -71,7 +71,7 @@ const About = () => {
         direction='left'
         scrollamount='30'
         className='bg-[#00ddff27] mt-8 px-4 py-6'>
-        <div className='[&_img]:size-32 flex gap-6 items-center w-max overflow-x-visible '>
+        <div className='[&_img]:size-32 flex gap-6 items-center w-fit overflow-x-visible '>
           <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg' />
 
           <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg' />
